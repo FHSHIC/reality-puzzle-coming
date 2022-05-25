@@ -16,7 +16,7 @@
       <div
         class="mt-[5px] flex w-[78.125vw] min-w-[250px] justify-center lg:w-[41.66vw]"
       >
-        <img src="./assets/title.png" alt="" />
+        <img src="./assets/title2.png" alt="" />
       </div>
       <div>
         <p
