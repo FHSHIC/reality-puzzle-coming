@@ -3,7 +3,7 @@
     class="flex h-[12.5vw] min-h-[40px] w-full min-w-[320px] items-center justify-center bg-[#F3F3F3] lg:hidden"
   >
     <div class="flex w-[68.1vw] min-w-[218px] justify-center lg:w-[27.77vw]">
-      <img src="./assets/BestChoice.png" alt="" />
+      <img src="./assets/bestchoice.png" alt="" />
     </div>
   </div>
   <div
@@ -11,7 +11,7 @@
   >
     <div class="flex flex-col items-center lg:gap-y-5 lg:py-[85px]">
       <div class="hidden w-[27.77vw] justify-center lg:flex">
-        <img src="./assets/BestChoice.png" alt="" />
+        <img src="./assets/bestchoice.png" alt="" />
       </div>
       <div
         class="mt-[5px] flex w-[78.125vw] min-w-[250px] justify-center lg:w-[41.66vw]"
@@ -60,7 +60,7 @@
           @submit.prevent="push"
         >
           <input
-            class="peer h-[15.625vw] min-h-[50px] w-[80%] bg-inherit px-[9vw] placeholder-transparent outline-none lg:h-[5.31875vw] lg:px-[2vw] lg:text-[2.5vw]"
+            class="peer h-[15.625vw] min-h-[50px] w-[80%] bg-inherit px-[9vw] text-[4.375vw] placeholder-transparent outline-none lg:h-[5.31875vw] lg:px-[2vw] lg:text-[2.5vw]"
             type="email"
             placeholder="電子郵件地址"
             v-model="email"
