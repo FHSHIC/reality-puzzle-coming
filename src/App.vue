@@ -62,11 +62,13 @@
           <input
             class="peer h-[15.625vw] min-h-[50px] w-[80%] bg-inherit px-[9vw] text-[4.375vw] placeholder-transparent outline-none lg:h-[5.31875vw] lg:px-[2vw] lg:text-[2.5vw]"
             type="email"
+            name="email"
             placeholder="電子郵件地址"
             v-model="email"
           />
           <label
-            class="absolute left-[9.375vw] -top-[2.5vw] justify-center bg-[#D9CFC5] font-sans text-[3vw] font-semibold text-[#3E3D3D] duration-150 peer-placeholder-shown:top-[4.6875vw] peer-placeholder-shown:text-[4.375vw] lg:left-[2.3vw] lg:-top-[1.3vw] lg:text-[1.66vw] lg:peer-placeholder-shown:top-[0.8vw] lg:peer-placeholder-shown:text-[2.5vw]"
+            for="email"
+            class="pointer-events-none absolute left-[9.375vw] -top-[2.5vw] justify-center bg-[#D9CFC5] font-sans text-[3vw] font-semibold text-[#3E3D3D] duration-150 peer-placeholder-shown:top-[4.6875vw] peer-placeholder-shown:text-[4.375vw] lg:left-[2.3vw] lg:-top-[1.3vw] lg:text-[1.66vw] lg:peer-placeholder-shown:top-[0.8vw] lg:peer-placeholder-shown:text-[2.5vw]"
           >
             電子郵件地址
           </label>
