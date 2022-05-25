@@ -16,7 +16,7 @@
       <div
         class="mt-[5px] flex w-[78.125vw] min-w-[250px] justify-center lg:w-[41.66vw]"
       >
-        <img src="./assets/title.PNG" alt="" />
+        <img src="./assets/title.png" alt="" />
       </div>
       <div>
         <p
@@ -35,14 +35,14 @@
     </div>
 
     <div class="flex w-full min-w-[320px] justify-center lg:w-[52.083vw]">
-      <img src="./assets/school.PNG" alt="" />
+      <img src="./assets/school.png" alt="" />
     </div>
   </div>
   <div
     class="flex h-[140.625vw] min-h-[450px] w-full min-w-[320px] flex-col items-center bg-[#D9CFC5] lg:h-[41.66vw] lg:flex-row lg:justify-evenly"
   >
     <div class="flex w-full justify-center lg:w-[48.61vw]">
-      <img src="./assets/ComingSoon.PNG" alt="" />
+      <img src="./assets/ComingSoon.png" alt="" />
     </div>
     <div class="lg:flex lg:flex-col lg:justify-center">
       <div>
@@ -85,16 +85,16 @@
       </div>
       <div class="hidden lg:flex lg:flex-col lg:items-center">
         <div class="lg:w-[10.625vw]">
-          <img src="./assets/We_re.PNG" alt="" />
+          <img src="./assets/We_re.png" alt="" />
         </div>
         <div class="lg:w-[38.5vw]">
-          <img src="./assets/ComingSoonEn.PNG" alt="" />
+          <img src="./assets/ComingSoonEn.png" alt="" />
         </div>
       </div>
     </div>
 
     <div class="flex w-full justify-center lg:hidden">
-      <img src="./assets/We'reComingSoon.PNG" alt="" />
+      <img src="./assets/We_reComingSoon.png" alt="" />
     </div>
   </div>
   <footer
