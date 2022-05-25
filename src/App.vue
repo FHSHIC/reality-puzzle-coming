@@ -3,7 +3,7 @@
     class="flex h-[12.5vw] min-h-[40px] w-full min-w-[320px] items-center justify-center bg-[#F3F3F3] lg:hidden"
   >
     <div class="flex w-[68.1vw] min-w-[218px] justify-center lg:w-[27.77vw]">
-      <img src="./assets/BestChoice.PNG" alt="" />
+      <img src="./assets/BestChoice.png" alt="" />
     </div>
   </div>
   <div
@@ -11,7 +11,7 @@
   >
     <div class="flex flex-col items-center lg:gap-y-5 lg:py-[85px]">
       <div class="hidden w-[27.77vw] justify-center lg:flex">
-        <img src="./assets/BestChoice.PNG" alt="" />
+        <img src="./assets/BestChoice.png" alt="" />
       </div>
       <div
         class="mt-[5px] flex w-[78.125vw] min-w-[250px] justify-center lg:w-[41.66vw]"
@@ -111,7 +111,7 @@
   </footer>
   <div
     id="jump"
-    class="fixed inset-0 flex h-full w-full items-center justify-center bg-black/40"
+    class="fixed inset-0 hidden h-full w-full items-center justify-center bg-black/40"
   >
     <div
       class="flex h-[42.1875vw] min-h-[135px] w-[81.25vw] min-w-[260px] flex-col items-center justify-center rounded-3xl border-[5px] border-[#C6612B] bg-[#EAD8CA] lg:h-[21.63472vw] lg:w-[41.66vw]"
