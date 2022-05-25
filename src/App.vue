@@ -3,7 +3,7 @@
     class="flex h-[12.5vw] min-h-[40px] w-full min-w-[320px] items-center justify-center bg-[#F3F3F3] lg:hidden"
   >
     <div class="flex w-[68.1vw] min-w-[218px] justify-center lg:w-[27.77vw]">
-      <img src="./assets/Best-choice.png" alt="" />
+      <img src="/assets/Best-choice.png" alt="" />
     </div>
   </div>
   <div
@@ -11,12 +11,12 @@
   >
     <div class="flex flex-col items-center lg:gap-y-5 lg:py-[85px]">
       <div class="hidden w-[27.77vw] justify-center lg:flex">
-        <img src="./assets/Best-choice.png" alt="" />
+        <img src="/assets/Best-choice.png" alt="" />
       </div>
       <div
         class="mt-[5px] flex w-[78.125vw] min-w-[250px] justify-center lg:w-[41.66vw]"
       >
-        <img src="./assets/title2.png" alt="" />
+        <img src="/assets/title2.png" alt="" />
       </div>
       <div>
         <p
@@ -35,14 +35,14 @@
     </div>
 
     <div class="flex w-full min-w-[320px] justify-center lg:w-[52.083vw]">
-      <img src="./assets/school.png" alt="" />
+      <img src="/assets/school.png" alt="" />
     </div>
   </div>
   <div
     class="flex h-[140.625vw] min-h-[450px] w-full min-w-[320px] flex-col items-center bg-[#D9CFC5] lg:h-[41.66vw] lg:flex-row lg:justify-evenly"
   >
     <div class="flex w-full justify-center lg:w-[48.61vw]">
-      <img src="./assets/ComingSoon.png" alt="" />
+      <img src="/assets/ComingSoon.png" alt="" />
     </div>
     <div class="lg:flex lg:flex-col lg:justify-center">
       <div>
@@ -77,7 +77,7 @@
           >
             <img
               class="mx-auto w-[10.9375vw] min-w-[35px] lg:w-[4.513888888vw]"
-              src="./assets/arrow.png"
+              src="/assets/arrow.png"
               alt=""
             />
           </button>
@@ -85,16 +85,16 @@
       </div>
       <div class="hidden lg:flex lg:flex-col lg:items-center">
         <div class="lg:w-[10.625vw]">
-          <img src="./assets/We_re.png" alt="" />
+          <img src="/assets/We_re.png" alt="" />
         </div>
         <div class="lg:w-[38.5vw]">
-          <img src="./assets/ComingSoonEn.png" alt="" />
+          <img src="/assets/ComingSoonEn.png" alt="" />
         </div>
       </div>
     </div>
 
     <div class="flex w-full justify-center lg:hidden">
-      <img src="./assets/We_reComingSoon.png" alt="" />
+      <img src="/assets/We_reComingSoon.png" alt="" />
     </div>
   </div>
   <footer
@@ -117,7 +117,7 @@
       class="flex h-[42.1875vw] min-h-[135px] w-[81.25vw] min-w-[260px] flex-col items-center justify-center rounded-3xl border-[5px] border-[#C6612B] bg-[#EAD8CA] lg:h-[21.63472vw] lg:w-[41.66vw]"
     >
       <div class="w-[17.1875vw] min-w-[55px] lg:w-[8.68vw]">
-        <img src="./assets/done.png" alt="" />
+        <img src="/assets/done.png" alt="" />
       </div>
       <div class="text-center font-sans font-semibold">
         <p class="text-[6.25vw] text-[#5D9B84] lg:text-[2.77vw]">輸入成功</p>
