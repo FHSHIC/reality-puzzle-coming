@@ -16,7 +16,7 @@
       <div
         class="mt-[5px] flex w-[78.125vw] min-w-[250px] justify-center lg:w-[41.66vw]"
       >
-        <img src="/assets/title2.png" alt="" />
+        <img src="/assets/title.png" alt="" />
       </div>
       <div>
         <p
@@ -68,7 +68,7 @@
           />
           <label
             for="email"
-            class="pointer-events-none absolute left-[9.375vw] -top-[2.5vw] justify-center bg-[#D9CFC5] font-sans text-[3vw] font-semibold text-[#3E3D3D] duration-150 peer-placeholder-shown:top-[4.6875vw] peer-placeholder-shown:text-[4.375vw] lg:left-[2.3vw] lg:-top-[1.3vw] lg:text-[1.66vw] lg:peer-placeholder-shown:top-[0.8vw] lg:peer-placeholder-shown:text-[2.5vw]"
+            class="pointer-events-none absolute left-[9.375vw] -top-[2.5vw] justify-center bg-[#D9CFC5] font-sans text-[3vw] font-semibold text-[#3E3D3D] duration-150 peer-placeholder-shown:top-[4.6875vw] peer-placeholder-shown:text-[4.375vw] peer-placeholder-shown:peer-hover:text-[#3e3d3d75] lg:left-[2.3vw] lg:-top-[1.3vw] lg:text-[1.66vw] lg:peer-placeholder-shown:top-[0.8vw] lg:peer-placeholder-shown:text-[2.5vw]"
           >
             電子郵件地址
           </label>
