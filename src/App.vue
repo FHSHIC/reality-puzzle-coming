@@ -64,6 +64,7 @@
             type="email"
             name="email"
             placeholder="電子郵件地址"
+            autocomplete="off"
             v-model="email"
           />
           <label
@@ -134,42 +135,45 @@
 <script>
 import { ref } from "vue";
 
+function jumpFuntion() {
+  document.getElementById("jump").classList.toggle("hidden");
+  document.getElementById("jump").classList.toggle("flex");
+}
+
 document.onclick = function (e) {
   if (e.target.id == "jump") {
-    document.getElementById("jump").classList.add("hidden");
-    document.getElementById("jump").classList.remove("flex");
+    jumpFuntion();
   }
 };
 
 export default {
   setup() {
     const email = ref("");
-    const list = ref([]);
-    const newList = JSON.parse(localStorage.getItem("List"));
-    if (localStorage.getItem("List")) {
-      list.value = newList;
-    } else {
-      list.value = [];
-    }
+    const url =
+      "https://script.google.com/macros/s/AKfycbzZP1pAlNRY8BwnrC7kr0kfCHEBT2fKwQz8zK7vIR1dYNRS-5UT0u2jRAm8q_PEuHoE/exec";
 
     const push = function () {
       if (email.value == "") {
         return;
       }
       if (email.value.includes("@") & email.value.includes(".")) {
-        document.getElementById("jump").classList.remove("hidden");
-        document.getElementById("jump").classList.add("flex");
-        list.value.push(email.value);
-        localStorage.setItem("List", JSON.stringify(list.value));
+        // fetch(url)
+        //   .then(function (response) {
+        //     console.log(response);
+
+        //     return response.text();
+        //   })
+        //   .then(function (text) {
+        //     console.log(text);
+        //   });
         email.value = "";
+        jumpFuntion();
       } else {
         return;
       }
     };
     return {
       email,
-      list,
-      newList,
       push,
     };
   },
