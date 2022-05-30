@@ -57,7 +57,7 @@
       >
         <form
           class="relative flex w-full rounded-full border-2 border-[#C6612B] align-middle"
-          @submit.prevent="push"
+          @submit.prevent="push()"
         >
           <input
             class="peer h-[15.625vw] min-h-[50px] w-[80%] bg-inherit px-[9vw] text-[4.375vw] placeholder-transparent outline-none lg:h-[5.31875vw] lg:px-[2vw] lg:text-[2.5vw]"
@@ -150,22 +150,27 @@ export default {
   setup() {
     const email = ref("");
     const url =
-      "https://script.google.com/macros/s/AKfycbzZP1pAlNRY8BwnrC7kr0kfCHEBT2fKwQz8zK7vIR1dYNRS-5UT0u2jRAm8q_PEuHoE/exec";
+      "https://script.google.com/macros/s/AKfycbzZP1pAlNRY8BwnrC7kr0kfCHEBT2fKwQz8zK7vIR1dYNRS-5UT0u2jRAm8q_PEuHoE/exec?email=${email}";
+
+    const fetchOption = {
+      methods: "GET",
+      Headers: "text/plain",
+    };
 
     const push = function () {
       if (email.value == "") {
         return;
       }
       if (email.value.includes("@") & email.value.includes(".")) {
-        // fetch(url)
-        //   .then(function (response) {
-        //     console.log(response);
+        fetch(url, fetchOption)
+          .then(function (response) {
+            console.log(response);
 
-        //     return response.text();
-        //   })
-        //   .then(function (text) {
-        //     console.log(text);
-        //   });
+            return response.text();
+          })
+          .then(function (text) {
+            console.log(text);
+          });
         email.value = "";
         jumpFuntion();
       } else {
