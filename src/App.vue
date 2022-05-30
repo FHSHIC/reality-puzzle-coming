@@ -162,15 +162,9 @@ export default {
         return;
       }
       if (email.value.includes("@") & email.value.includes(".")) {
-        fetch(url, fetchOption)
-          .then(function (response) {
-            console.log(response);
-
-            return response.text();
-          })
-          .then(function (text) {
-            console.log(text);
-          });
+        fetch(url, fetchOption).then(function (response) {
+          return response.text();
+        });
         email.value = "";
         jumpFuntion();
       } else {
