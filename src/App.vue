@@ -150,7 +150,7 @@ export default {
   setup() {
     const email = ref("");
     const url =
-      "https://script.google.com/macros/s/AKfycbzZP1pAlNRY8BwnrC7kr0kfCHEBT2fKwQz8zK7vIR1dYNRS-5UT0u2jRAm8q_PEuHoE/exec?email=${email}";
+      "https://script.google.com/macros/s/AKfycbzZP1pAlNRY8BwnrC7kr0kfCHEBT2fKwQz8zK7vIR1dYNRS-5UT0u2jRAm8q_PEuHoE/exec?email=${email.value}";
 
     const fetchOption = {
       methods: "GET",
