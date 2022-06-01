@@ -150,7 +150,10 @@ export default {
   setup() {
     const email = ref("");
     const url =
-      "https://script.google.com/macros/s/AKfycbzZP1pAlNRY8BwnrC7kr0kfCHEBT2fKwQz8zK7vIR1dYNRS-5UT0u2jRAm8q_PEuHoE/exec?email=${email.value}";
+      "https://script.google.com/macros/s/AKfycbzZP1pAlNRY8BwnrC7kr0kfCHEBT2fKwQz8zK7vIR1dYNRS-5UT0u2jRAm8q_PEuHoE/exec?email=";
+    function Email(value) {
+      this.value = email.value;
+    }
 
     const fetchOption = {
       methods: "GET",
@@ -162,7 +165,9 @@ export default {
         return;
       }
       if (email.value.includes("@") & email.value.includes(".")) {
-        fetch(url, fetchOption).then(function (response) {
+        var Obj = new Email(email.value);
+        var Url = url + Obj.value;
+        fetch(Url, fetchOption).then(function (response) {
           return response.text();
         });
         email.value = "";
